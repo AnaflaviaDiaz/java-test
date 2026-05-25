@@ -1,3 +1,5 @@
+package variables;
+
 public class EmailGenerator {
     static void main() {
         var username = "Anaflavia Diaz Martel";

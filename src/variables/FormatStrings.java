@@ -1,3 +1,5 @@
+package variables;
+
 public class FormatStrings {
     static void main() {
         var name = "Ana";

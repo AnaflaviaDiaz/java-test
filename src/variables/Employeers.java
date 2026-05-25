@@ -1,6 +1,8 @@
+package variables;
+
 import java.util.Scanner;
 
-public class employeers {
+public class Employeers {
     static void main() {
         System.out.println("***Sistema de empleados***");
 

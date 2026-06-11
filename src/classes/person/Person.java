@@ -1,7 +1,7 @@
 package classes.person;
 
 public class Person {
-    public static int countPeople = 0;
+    private static int countPeople = 0;
     private final int id;
     private String name;
     private String lastname;
@@ -23,6 +23,10 @@ public class Person {
 
     public int getId() {
         return id;
+    }
+
+    public static int getCountPeople() {
+        return Person.countPeople;
     }
 
     public String getName() {

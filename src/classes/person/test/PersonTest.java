@@ -8,11 +8,11 @@ public class PersonTest {
         var obj1 =  new Person("Ana", "Diaz");
         // System.out.println(obj1.toString());
         System.out.println(obj1); // automaticamente, se llama a toString
-        System.out.println("Variable estática: " + Person.countPeople);
+        System.out.println("Variable estática: " + Person.getCountPeople());
 
         // segundo objeto
         var obj2 =  new Person("Laila", "Fernandez");
         System.out.println(obj2);
-        System.out.println("Variable estática: " + Person.countPeople);
+        System.out.println("Variable estática: " + Person.getCountPeople());
     }
 }
